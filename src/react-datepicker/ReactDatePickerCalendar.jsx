@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 // import PropTypes from 'prop-types'
 
 import ReactDatePickerViewDay from './components/calendar/ReactDatePickerViewDay'
+import ReactDatePickerViewMonth from './components/calendar/ReactDatePickerViewMonth'
 
 const VIEWS = [
   ReactDatePickerViewDay,
+  ReactDatePickerViewMonth,
 ]
 
 const ReactDatePickerCalendar = (props = {}) => {
