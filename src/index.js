@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom'
+
+import ReactDatePicker from '../src/react-datepicker'
+
+const App = (props) => {
+  const [date, setDate] = useState('NO DATE')
+
+  return (
+    <div className='demo'>
+      <h3>已選擇的日期：{ date }</h3>
+      <ReactDatePicker
+        onSelect={(date) => {
+          console.log({ date })
+          setDate(date.label)
+        }}
+      />
+    </div>
+  )
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+)
