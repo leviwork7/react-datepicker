@@ -3,10 +3,12 @@ import React, { useState } from 'react'
 
 import ReactDatePickerViewDay from './components/calendar/ReactDatePickerViewDay'
 import ReactDatePickerViewMonth from './components/calendar/ReactDatePickerViewMonth'
+import ReactDatePickerViewYear from './components/calendar/ReactDatePickerViewYear'
 
 const VIEWS = [
   ReactDatePickerViewDay,
   ReactDatePickerViewMonth,
+  ReactDatePickerViewYear,
 ]
 
 const ReactDatePickerCalendar = (props = {}) => {
