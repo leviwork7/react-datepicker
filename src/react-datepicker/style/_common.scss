@@ -1,0 +1,34 @@
+.react-datepicker__base__day {
+  display: inline-block;
+  padding: .5rem;
+  line-height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.react-datepicker__base--picker-hover {
+  cursor: pointer;
+
+  &:hover {
+    background: #eee;
+  }
+  
+  &.react-datepicker__base--picker-outside:hover{
+    color: #000;
+  }
+}
+
+.react-datepicker__base--picker-today {
+  color: rgb(227, 63, 73);
+}
+
+.react-datepicker__base--picker-outside {
+  color: #eee;
+}
+
+.react-datepicker__base--picker-current {
+  color: white !important;
+  background: rgb(227, 63, 73) !important;
+}
