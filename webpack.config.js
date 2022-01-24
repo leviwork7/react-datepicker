@@ -90,6 +90,10 @@ module.exports = function(webpackEnv) {
 
         },
         {
+          test: /\.css$/,
+          use: ['style-loader', 'css-loader']
+        },
+        {
           test: /\.s[ac]ss$/i,
           use: [
             isEnvDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
