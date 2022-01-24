@@ -7,6 +7,10 @@ export const useDateState = (initDate) => {
   const [date, setDate] = useState(initValue)
   const resetDate = () => setDate(initValue)
 
+  useEffect(() => {
+    setDate(parseDate(initDate || new Date()))
+  }, [initDate])
+
   return [date, setDate, resetDate]
 }
 
