@@ -955,10 +955,10 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.2.tgz#30aa825f11d438671d585bd44e7fd564535fc210"
   integrity sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw==
 
-"@leviwork7/react-datepicker@^0.1.1":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@leviwork7/react-datepicker/-/react-datepicker-0.1.20.tgz#dac895570d0d1b614673e9dd7e7ae4a027462f18"
-  integrity sha512-eZzqkfEjNgAruKM9wS3c9+e1vD7CERdYoDX9BokHGIvjNEQzPuAq3WwlA/wkuSlrnJeXgNWGqlNCj3MUzgNrQw==
+"@leviwork7/react-datepicker@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@leviwork7/react-datepicker/-/react-datepicker-0.2.0.tgz#29b9ced337a12422a2f6fb07bba9917695a4d303"
+  integrity sha512-p8blbieFmnDEDtCTPOMaVDCs5WAQFhOK7BiPeNPPLQEWRFVKXD2TpUD7kL0aGCo+S9BOVOU5V3PvLrnRkAG6CA==
   dependencies:
     react "^17.0.2"
     react-dom "^17.0.2"
